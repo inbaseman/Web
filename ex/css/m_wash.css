@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+h1{
+  font-size: 40px;
+  color: red;
+}
+
+.inner{
+  width: auto;
+}
+section{
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  gap: 30px;
+}
+img{
+  width: 100%;
+}
+
+.txtbox{
+width: 100%;
+}
+
+section:nth-child(2) .txtbox{
+  order: 2;
+}
+
+section:nth-child(2) img{
+  order: 1;
+
+}

@@ -1,0 +1,97 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+:root {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+  padding: 0;
+  margin: 0;
+  /* outline: 1px solid darkblue */
+  box-sizing: border-box;
+}
+.sec01{
+  display: flex;
+height: 368px;
+padding: 0px 208px 0px 194px;
+align-items: center;
+flex-direction: column;
+}
+.sec01 > .inner{
+  display: flex;
+  width: 1200px;
+  padding: 80px 260px 0px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  }
+.sec01 > .inner > h1{
+  height: 97px;
+font-size: 70px;
+font-weight: 400;
+}
+.sec01 > .inner > h2{
+font-size: 30px;
+font-weight: 400;
+line-height: 40px; /* 133.333% */
+}
+.sec01 > .inner > p{
+font-size: 15px;
+letter-spacing: -1.5px;
+}
+.sec02{
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+background: url(/ex/images/lotte7s/bg1.png)
+/* lightgray 0px -0.172px / 100% 41.311% no-repeat, #FFF; */
+}
+.sec02 > .txt_box{
+height: 43px;
+display: flex;
+flex-direction:row;
+color: #FFF;
+}
+.sec02 > .txt_box > h1{
+  font-size: 30px;
+}
+.sec02 > .txt_box > h2{
+  font-size: 30px;
+  font-weight: 400;
+}
+.sec02 > .inner > .f1 > .f2{
+  display: flex;
+align-items: flex-start;
+}
+.sec02 > .inner > .f1 > .f2 div{
+  width: 400px;
+  height: 250px;
+  padding: 40px 75px 0px 40px;
+}
+.sec02 > .inner .txt_box{
+  display: flex;
+  flex-direction: column;
+gap: 20px;
+}
+.sec02 > .inner h1{
+font-size: 30px;
+font-weight: 400;
+line-height: 40px;
+}
+.sec02 > .inner h2{
+font-size: 20px;
+font-weight: 500;
+}
+.sec02 > .inner p{
+color: #353535;
+font-size: 15px;
+letter-spacing: -1.5px;
+}
+.card02 img{
+  margin-top: 80px;
+}
+.card03 img{
+  margin-top: 40px;
+}

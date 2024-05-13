@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body{
+  /* min-width: 1080px; */
+}
+
+h6 {
+  text-align: center;
+}
+
+section:nth-child(2) .left > .inner600 > div {
+  width: 520px;
+}
+
+.inner600 {
+  width: 100%;
+}
+
+section:nth-child(3) .left button {
+  left: 170px;
+}
+
+section:nth-child(3) .right button {
+  left: 170px;
+}
+
+section:nth-child(3) .right .inner600 div {
+  width: 100%;
+}
+
+section:nth-child(1) .inner {
+  width: auto;
+}
+section:nth-child(4) .inner {
+  width: auto;
+}
+
+section:nth-child(2) .right > .inner600 {
+  padding: 60px 0px 0px 150px;
+}

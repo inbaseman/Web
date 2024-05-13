@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/* 빨래방 PC */
+
+/* Noto Sans Korean 구글폰트 */
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  /* outline: 1px solid darkblue */
+  box-sizing: border-box;
+
+
+}
+:root {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1{
+  text-align: center;
+}
+/* 바디를 기준으로 레이아웃 가운데정렬*/
+
+/* body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+
+/* 스스로 레이아웃 가운데정렬 1 */
+/* margin:0 auto; */
+.inner{
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  margin: 0 auto;
+
+}
+
+section{
+  height: 325px;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+
+}
+section:nth-child(2) .txtbox{
+  order: 1;
+  
+}
+
+section:nth-child(2) img{
+  order: 2;
+  
+}
+
+.txtbox{
+  display: flex;
+width: 440px;
+flex-direction: column;
+align-items: flex-start;
+gap: 5px;
+}
+
+.txtbox h2{
+color: var(--_1, #00B9D2);
+font-size: 18px;
+font-weight: 600;
+/* font-style: normal;
+line-height: normal; */
+
+}
+
+.txtbox h3{
+padding: 10px 0px 45px 0px;
+font-size: 50px;
+font-weight: 500;
+line-height: 50px; /* 100% */
+
+/* font-style: normal;
+display: flex;
+align-items: flex-start; */
+}
+
+.txtbox p{
+color: #353535;
+line-height: 170%; /* 27.2px */
+/* 
+font-feature-settings: 'liga' off;
+font-size: 16px;
+font-style: normal;
+font-weight: 500; */
+
+}

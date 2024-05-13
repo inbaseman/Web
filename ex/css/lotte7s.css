@@ -1,0 +1,288 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+:root {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  /* outline: 1px solid darkblue */
+  box-sizing: border-box;
+}
+
+
+
+.sec01{
+  display: flex;
+height: 368px;
+padding: 0px 208px 0px 194px;
+align-items: center;
+flex-shrink: 0;
+align-self: stretch;
+
+flex-direction: column;
+}
+
+.sec01 > .inner{
+  display: flex;
+  width: 1200px;
+  padding-top: 80px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  }
+
+.sec01 > .inner > h1{
+  height: 97px;
+align-self: stretch;
+
+color: #000;
+
+font-family: "Noto Sans KR";
+font-size: 70px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.sec01 > .inner > h2{
+  align-self: stretch;
+  
+  color: #000;
+
+font-family: "Noto Sans KR";
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 133.333% */
+}
+
+.sec01 > .inner > p{
+  align-self: stretch;
+
+  color: #000;
+
+font-family: "Noto Sans KR";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.5px;
+}
+
+.sec02{
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+background: url(/ex/images/lotte7s/bg1.png) 
+/* lightgray 0px -0.172px / 100% 41.311% no-repeat, #FFF; */
+}
+
+.sec02 > .txt_box{
+height: 43px;
+display: flex;
+flex-direction:row;
+color: #FFF;
+}
+
+.sec02 > .txt_box > h1{
+  /* color: #FFF; */
+  font-family: "Noto Sans KR";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sec02 > .txt_box > h2{
+  /* color: #FFF; */
+  font-family: "Noto Sans KR";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sec02 > .inner{
+  display: flex;
+  padding-top: 60px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.sec02 > .inner > .f1{
+  display: flex;
+align-items: flex-start;
+}
+
+.sec02 > .inner > .f1 > .f2{
+  display: flex;
+align-items: flex-start;
+}
+
+.sec02 > .inner > .f1 > .f2 > .card01{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sec02 > .inner > .f1 > .f2 > .card02{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sec02 > .inner > .f1 > .f2 > .card03{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sec02 > .inner > .f1 > .f2 > .card01 > .txt_box{
+  display: flex;
+width: 400px;
+height: 250px;
+padding: 40px 40px 0px 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+}
+.sec02 > .inner > .f1 > .f2 > .card02 > .txt_box{
+  display: flex;
+width: 400px;
+height: 250px;
+padding: 40px 40px 0px 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+}
+.sec02 > .inner > .f1 > .f2 > .card03 > .txt_box{
+  display: flex;
+width: 400px;
+height: 250px;
+padding: 40px 40px 0px 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+}
+
+.sec02 > .inner > .f1 > .f2 > .card01 > .txt_box > h1{
+  align-self: stretch;
+  color: #000;
+
+/* 롯데칠성/h2 */
+font-family: "Noto Sans KR";
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 133.333% */
+}
+.sec02 > .inner > .f1 > .f2 > .card02 > .txt_box > h1{
+  align-self: stretch;
+  color: #000;
+
+/* 롯데칠성/h2 */
+font-family: "Noto Sans KR";
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 133.333% */
+}
+.sec02 > .inner > .f1 > .f2 > .card03 > .txt_box > h1{
+  align-self: stretch;
+  color: #000;
+
+/* 롯데칠성/h2 */
+font-family: "Noto Sans KR";
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 133.333% */
+}
+
+
+.sec02 > .inner > .f1 > .f2 > .card01 > .txt_box > h2{
+  align-self: stretch;
+  color: #4A4A4A;
+
+/* 롯데칠성/h3 */
+font-family: "Noto Sans KR";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.sec02 > .inner > .f1 > .f2 > .card02 > .txt_box > h2{
+  align-self: stretch;
+  color: #4A4A4A;
+
+/* 롯데칠성/h3 */
+font-family: "Noto Sans KR";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.sec02 > .inner > .f1 > .f2 > .card03 > .txt_box > h2{
+  align-self: stretch;
+  color: #4A4A4A;
+
+/* 롯데칠성/h3 */
+font-family: "Noto Sans KR";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.sec02 > .inner > .f1 > .f2 > .card01 > .txt_box > p{
+  align-self: stretch;
+  color: #353535;
+
+/* 롯데칠성/p */
+font-family: "Noto Sans KR";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.5px;
+}
+.sec02 > .inner > .f1 > .f2 > .card02 > .txt_box > p{
+  align-self: stretch;
+  color: #353535;
+
+/* 롯데칠성/p */
+font-family: "Noto Sans KR";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.5px;
+}
+.sec02 > .inner > .f1 > .f2 > .card03 > .txt_box > p{
+  align-self: stretch;
+  color: #353535;
+
+/* 롯데칠성/p */
+font-family: "Noto Sans KR";
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.5px;
+}
+
+.card02 img{
+  margin-top: 80px;
+}
+
+.card03 img{
+  margin-top: 40px;
+}
